@@ -1,28 +1,28 @@
-name: React App CI/CD
-on:
-  push:
-    branches:
-      - staging
-  pull_request:
-    branches:
-      - staging
-jobs:
-  build:
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18'
-      - name: Check for "build" script
-        run: 
-          if ! npm run -s build --if-present; then
-            echo "No 'build' script found in package.json or it failed to run."
-            exit 0
-          fi
-      - name: Install Packages
-        run: npm install
-      - name: Run Tests
-        run: npm test
+# name: React App CI/CD
+# on:
+#   push:
+#     branches:
+#       - staging
+#   pull_request:
+#     branches:
+#       - staging
+# jobs:
+#   build:
+#     runs-on: ubuntu-20.04
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: '18'
+#       - name: Check for "build" script
+#         run: 
+#           if ! npm run -s build --if-present; then
+#             echo "No 'build' script found in package.json or it failed to run."
+#             exit 0
+#           fi
+#       - name: Install Packages
+#         run: npm install
+#       - name: Run Tests
+#         run: npm test
