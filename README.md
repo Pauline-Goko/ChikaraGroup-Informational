@@ -49,9 +49,25 @@ A CarbonGuard IoT device.
 Access to the CarbonGuard dashboard (provided upon device purchase).
 
 ### Installation
-- Install the CarbonGuard IoT device in your vehicle's emission system following the provided instructions.
-- Connect the device to the internet as instructed in the user manual.
-- Access the CarbonGuard dashboard using your provided credentials.
+
+Navigate to the project directory
+```
+cd Chikara-Informational-
+```
+Install dependencies
+```
+npm install
+```
+Run tests
+```
+npm test
+```
+Run the application
+```
+npm start
+```
+
+
 
 ## Usage
 
