@@ -1,0 +1,130 @@
+/* Common styles for both open and closed Galaxy Fold */
+
+.ba-section {
+    padding: 42px;
+    display: flex;
+    justify-content: space-around;
+    gap: 14px;
+    background-color: white;
+    margin: 0 auto; 
+    margin-left: -2.8%;
+  
+    }
+    
+    /* Image */
+    .ba-image-content {
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+      margin-top: 2%;
+      /* border: solid; */
+     
+    }
+  
+   
+   
+    
+    .ba-image-content img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Text */
+    .ba-text-content {
+      width: 100%;
+    }
+    
+    .ba-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: 42px;
+      font-weight: bold;
+      letter-spacing: 0.7px;
+    }
+    
+    .ba-title > span {
+      position: relative;
+    }
+    
+    .ba-title span::before {
+      content: '';
+      position: absolute;
+      width: 75%;
+      height: 4px;
+      background-color: #098081;
+      border-radius: 8px;
+      left: 0;
+      bottom: -12px;
+    }
+    
+    .ba-description {
+      margin: 16px 0;
+      color: #292828;
+      font-family: 'Rubik', sans-serif;
+      font-size: 32px;
+      letter-spacing: 0.8px;
+      line-height: 3rem;
+      max-width: 850px;
+    }
+    
+    /* Checks */
+    .ba-checks {
+      margin: 14px 0;
+      font-family: 'Rubik', sans-serif;
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      line-height: 2rem;
+    }
+    
+    .ba-check-first {
+      margin-top: 40px;
+    }
+    
+    .ba-check-last {
+      margin-bottom: 20px;
+    }
+    
+    
+  
+  
+    /* Responsive adjustments */
+  @media screen and (max-width: 700px) {
+    .ba-title {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
+    
+    .ba-description {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+    
+    .ba-checks {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+    .ba-section {
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      background-color: white;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .ba-title {
+        font-size: 18px; /* Further reduce font size for smaller screens */
+    }
+  
+    .ba-title span::before {
+        width: 50%; /* Reduce width of the underline for smaller screens */
+    }
+  
+    .ba-description {
+        font-size: 12px; /* Further reduce font size for smaller screens */
+    }
+  
+    .ba-checks {
+        font-size: 14px; /* Further reduce font size for smaller screens */
+    }
+  }
+    
+  
