@@ -48,6 +48,19 @@ A compatible vehicle with an emission system.
 A CarbonGuard IoT device.
 Access to the CarbonGuard dashboard (provided upon device purchase).
 
+
+## Usage
+
+Once installed and connected, the CarbonGuard IoT device will start capturing real-time CO2 data. The dashboard will display carbon emissions data, calculate carbon credits, and provide actionable insights for reducing your carbon footprint.
+
+## Dashboard
+
+The CarbonGuard dashboard provides:
+
+- Real-time carbon emissions data visualization.
+- Carbon credit calculations based on government-defined rates.
+- Insights into emission patterns and opportunities for reductions.
+
 ### Installation
 
 Navigate to the project directory
@@ -67,19 +80,6 @@ Run the application
 npm start
 ```
 
-
-
-## Usage
-
-Once installed and connected, the CarbonGuard IoT device will start capturing real-time CO2 data. The dashboard will display carbon emissions data, calculate carbon credits, and provide actionable insights for reducing your carbon footprint.
-
-## Dashboard
-
-The CarbonGuard dashboard provides:
-
-- Real-time carbon emissions data visualization.
-- Carbon credit calculations based on government-defined rates.
-- Insights into emission patterns and opportunities for reductions.
 
 ## Contact Us
 - Email: [info.ecobasi@gmail.com]
