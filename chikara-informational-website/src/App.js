@@ -1,13 +1,17 @@
-import './App.css';
-import React from 'react';
-import Product from './Components/Product';
 
+import './App.css';
+import Layout from './Components/layout';
+import Product from './Components/Product';
 
 function App() {
   return (
     <div >
-   <Product/>
-     
+   <Layout>
+    <Product/>
+   
+   
+  
+   </Layout>
     </div>
   );
 }
