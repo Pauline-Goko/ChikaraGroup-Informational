@@ -1,14 +1,11 @@
 .footer-section {
     background-color: #173042;
-
-
-
 }
 
 .footer-container {
     padding: 40px;
     margin-left: 5%;
-    margin-top: 40%;
+   
 
 
     display: flex;
@@ -297,7 +294,7 @@
     .footer-container {
         padding: 40px;
         margin-left: 5%;
-        margin-top: 40%;
+       
 
 
         display: flex;
@@ -369,9 +366,6 @@
     .footer-container {
         padding: 40px;
         margin-left: 5%;
-        margin-top: 82%;
-
-
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;

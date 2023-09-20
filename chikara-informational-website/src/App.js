@@ -1,14 +1,19 @@
-import './App.css';
-import Layout from './Components/layout';
-import Product from './Components/Product';
+import "./App.css";
+import Team from "./Components/team";
+import Product from "./Components/Product";
+import Layout from "./Components/layout";
+import About from "./Components/About";
+import Value from "./Components/Values";
 
 function App() {
   return (
-    <div >
-   <Layout>
-    <Product/>
-  
-   </Layout>
+    <div>
+      <Layout>
+        <About/>
+        <Value/>
+        <Product/>
+        <Team />
+      </Layout>
     </div>
   );
 }
