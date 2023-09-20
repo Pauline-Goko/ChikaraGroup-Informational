@@ -18,8 +18,7 @@
       max-width: 100%;
       text-align: center;
       margin-top: 2%;
-      /* border: solid; */
-     
+      
     }
   
    
@@ -38,7 +37,7 @@
     
     .ba-title {
       font-family: 'Poppins', sans-serif;
-      font-size: 42px;
+      font-size: 40px;
       font-weight: bold;
       letter-spacing: 0.7px;
     }
@@ -50,7 +49,7 @@
     .ba-title span::before {
       content: '';
       position: absolute;
-      width: 75%;
+      width: 50%;
       height: 4px;
       background-color: #098081;
       border-radius: 8px;
@@ -61,21 +60,21 @@
     .ba-description {
       margin: 16px 0;
       color: #292828;
-      font-family: 'Poppins', sans-serif;
-      font-size: 32px;
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
     
       line-height: 3rem;
       max-width: 850px;
     }
     
-    /* Checks */
+   
     .ba-checks {
-      margin: 14px 0;
+      margin: -3px 0;
       font-family: 'Inter';
-      font-size: 25px;
+      font-size: 18px;
       font-weight: bold;
       padding: 20px;
-      /* letter-spacing: 2px; */
+       
       
     }
     
@@ -86,6 +85,14 @@
     .ba-check-last {
       margin-bottom: 20px;
     }
+
+   
+    .div1{
+      display: flex;
+    }
+
+    
+
     
     
   
@@ -102,7 +109,7 @@
     
     .ba-checks {
         font-size: 16px; 
-        margin-top: -7%;
+        /* margin-top: -7%; */
     }
     .icon{
       font-size: 15px;
@@ -133,9 +140,12 @@
     }
   
     .ba-checks {
-        font-size: 14px; 
-        margin-top: -7%;
+        font-size: 12px; 
+       /* margin-left: -6%; */
+       margin: -2px;
     }
+
+    
   }
 
   @media screen and (min-width: 768px) and (max-width: 1280px ){
@@ -150,7 +160,8 @@
     .ba-checks{
       font-size: 18px;
       padding: 0px;
-      margin-top: -1%;
+      /* margin-top: -1%; */
+      margin: 13px;
     }
 
     .icon{
