@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
 .team-section {
     background-color: white;
     padding: 0 px;
@@ -12,7 +14,7 @@
   }
   
   .dt-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 0.7px;
@@ -25,21 +27,21 @@
   .dt-title span::before {
     content: '';
     position: absolute;
-    width: 64%;
-    height: 4px;
+    width: 48%;
+    height: 5px;
     background-color: #0D7D04;
     border-radius: 8px;
     left: 0;
-    bottom: -12px;
+    bottom: -6px;
   }
   
   .dt-description {
     margin: 64px auto 0;
     text-align: center;
     color: rgb(77, 75, 75);
-    font-family: 'Rubik', sans-serif;
+    font-family: Poppins;
     font-size: 20px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.2px;
     line-height: 1.8rem;
   }
   
@@ -47,7 +49,6 @@
   .dt-cards-content {
     display: flex;
     justify-content: space-evenly;
-    
     padding-bottom: 20px;
   }
   
@@ -56,7 +57,7 @@
     width: 332px;
     height: auto;
     text-align: left;
-    font-family: 'Rubik', sans-serif;
+    font-family: Poppins;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -78,12 +79,13 @@
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 0.7px;
+    font-family: Poppins;
   }
   
   .dt-card-title {
     margin: 6px 0 8px;
     color: #494949;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
     font-size: 18px;
     letter-spacing: 0.7px;
   }
@@ -96,6 +98,7 @@
   
     .dt-description {
       margin: 48px 0 0;
+      text-align: left;
       font-size: 18px;
     }
     .dt-card {
@@ -120,21 +123,31 @@
     }
     .dt-cards-content {
       flex-direction: column; 
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(2,1fr);
       align-items: center;
       position: relative;
-      left: 240px;
+      left: 62px;
     }
+  
+
   .dt-title{
     margin-right: 10px;
   }
     .dt-card {
       width: 100%; 
     }
+    .dt-cards-content :nth-child(5) {
+      margin-left: 50%;
+    }
+ 
     .dt-description{
       margin-right: 60px;
+      text-align: left;
     }
   }
-  
+
   @media screen and (max-width: 700px) {
     .dt-title {
       font-size: 32px;
@@ -162,14 +175,24 @@
   }
   
   
-  @media screen and (max-width: 280px) {
+  @media screen and (min-width: 280px)  and (max-width:380px){
     .dt-title {
-      font-size: 18px;
+      font-size: 10px;
     }
-  
+    .team-section {
+      background-color: white;
+      padding: 0 px;
+      margin: 0 0 32px 0;
+      text-align: center;
+      margin-left: 10%;
+    }
+    .dt-cards-content :nth-child(5) {
+      margin-left:30%;
+    }
     .dt-description {
       margin: 16px auto 0;
-      font-size: 10px;
+      font-size: 8px;
+      text-align: left;
       line-height: 1.2rem;
     }
     .dt-card {
@@ -181,7 +204,7 @@
       gap: 32px;
       max-width: 100%;
       position: relative;
-      right: 38px;
+      left: 30px;
       padding-bottom: 20px;
   }
   .dt-card-title{
@@ -193,6 +216,21 @@
   
   }
   
+
+    
+  @media screen and (min-width: 390px)and (max-width: 420px)  {
+  
+  .team-section {
+    background-color: white;
+    padding: 0 px;
+    margin: 0 0 32px 0;
+    text-align: center;
+    margin-left: 20%;
+  }
+  .dt-cards-content :nth-child(5) {
+    margin-left: 0;
+  }
+  }
   
   
   @media screen and (max-width: 667px) {
@@ -202,25 +240,34 @@
   
     .dt-description {
       margin: 48px 0 0;
+      text-align: left;
       font-size: 18px;
     }
-  
-    .dt-card {
-      flex: 0 0 auto;
-      margin-right: 20px;
+    .dt-card-name{
+margin-left: 30px;
     }
-  
-    .dt-cards-content {
+    .dt-card-title{
+      margin-right: -30px;
+          }
+    .dt-card-img {
+      flex: 0 0 auto;
+      margin-left: -10px;
+    }
+    .dt-cards-content :nth-child(5) {
+      margin-left: 0;
+    }
+    .dt-cards-content{
       display: flex;
       flex-direction: column;
       gap: 32px;
       max-width: 100%;
-      /* margin-left: 80px; */
+      margin-left: -10px;
       padding-bottom: 20px;
     }
+  
   }
 
-  @media screen and (max-width: 380px) {
+@media screen and (max-width: 380px) {
 
 .dt-cards-content{
   display: flex;
@@ -234,6 +281,15 @@
 .dt-title{
   font-size: 29px !important ;
 }
+.dt-card-name{
+  margin-left: -30px;
+}
+.dt-card-title{
+  margin-left: -30px;
+}
+.dt-card{
+  margin-left: 80px;
+}
 
   }
 
@@ -245,7 +301,7 @@
       flex-direction: column;
       max-width: 100%;
       position: relative;
-      left: 50px;
+      left: 55px;
       padding-bottom: 20px;
     }
     .dt-title{
@@ -253,8 +309,60 @@
     }
     .dt-description{
       margin-right: 20px;
+      /* text-align: center; */
+    }
+    
+    .dt-card-name{
+      margin-left: -40px;
+    }
+    .dt-card-title{
+      margin-left: -30px;
     }
     
       }
     
+      @media screen and (max-width: 360px) {
+
+        .dt-cards-content{
+          display: flex;
+          flex-direction: column;
+          max-width: 100%;
+          position: absolute;
+          left: 70px;
+        /* right: 40px; */
+          padding-bottom: 20px;
+        }
+      }
     
+      @media screen and (min-width: 820px) and (max-width :1080px) {
+
+        .team-section {
+          overflow-x: hidden;
+           }
+           .dt-cards-content {
+             flex-direction: column; 
+             display: grid;
+             gap: 20px;
+             grid-template-columns: repeat(2,1fr);
+             align-items: center;
+             position: relative;
+             left: 62px;
+           }
+         
+       
+         .dt-title{
+           margin-right: 10px;
+         }
+           .dt-card {
+             width: 100%; 
+           }
+       
+           .dt-cards-content :nth-child(5) {
+             margin-left: 50%;
+           }
+           .dt-description{
+             margin-right: 60px;
+             text-align: left;
+           }
+      }
+     
