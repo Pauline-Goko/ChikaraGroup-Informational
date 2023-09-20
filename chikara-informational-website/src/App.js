@@ -5,7 +5,11 @@ import Layout from './Components/layout';
 function App() {
   return (
     <div >
-   <Layout/>
+   <Layout>
+   
+   
+  
+   </Layout>
     </div>
   );
 }

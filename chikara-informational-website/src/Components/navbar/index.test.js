@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen} from '@testing-library/react';
 import Navbar from '.';
 
 describe('Navbar component', () => {
@@ -21,9 +21,16 @@ describe('Navbar component', () => {
     render(<Navbar />);
     const homeLink = screen.getByText('Home');
     const aboutLink = screen.getByText('About');
+    const ValueLink = screen.getByText('Values');
+    const ProductLink = screen.getByText('Product');
+    const teamLink = screen.getByText('Team');
+ 
     
     expect(homeLink).toBeInTheDocument();
     expect(aboutLink).toBeInTheDocument();
+    expect(ValueLink).toBeInTheDocument();
+    expect(ProductLink).toBeInTheDocument();
+    expect(teamLink).toBeInTheDocument();
   });
 
 
