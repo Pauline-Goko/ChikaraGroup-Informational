@@ -366,9 +366,6 @@
     .footer-container {
         padding: 40px;
         margin-left: 5%;
-       
-
-
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
