@@ -19,6 +19,8 @@
     color: white;
     border-bottom: 2px solid #293241;
     border-radius: 2px;
+    padding-left: 30px; 
+    padding-right: 80px;  
 }
 
 .ft-title {
