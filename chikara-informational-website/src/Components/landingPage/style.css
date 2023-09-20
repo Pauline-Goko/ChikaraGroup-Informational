@@ -49,12 +49,16 @@
 
     padding: 20px;
     border-radius: 10px;
+    margin-left: 20%;
+
+
     
   }
   
   .text-content {
     max-width: 80%;
     /* margin: 0 auto; */
+    margin-top: -40%;
   }
   
   .text-title {

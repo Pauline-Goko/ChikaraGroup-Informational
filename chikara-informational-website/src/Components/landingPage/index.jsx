@@ -19,7 +19,7 @@ function Hero() {
               YOUR PARTNER IN SUSTAINABILITY
             </h2>
             <p className="text-description">
-              At Chikara, we're committed to creating a sustainable future. Join us in our mission to reduce carbon emissions and make the world a greener place.
+              At Chikara, we're committed to creating a sustainable future. Join us in our mission to reduce carbon emissions and make the world a better place.
             </p>
             <button className="text-appointment-btn" type="button">
               Learn More
