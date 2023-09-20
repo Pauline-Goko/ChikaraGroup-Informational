@@ -97,13 +97,15 @@
     left: 43%;
     padding: 10px;
     background-color: #fff;
-    /* border: 3.0px solid #098081; */
-    border-radius: 30px;
+    border: 3.0px solid #098081;
+    border-radius: 100%;
   }
+
   
   .info-fa-icon {
     color: #098081;
     font-size: 24px;
+    padding-left: 3px;
   }
   
   
@@ -111,6 +113,11 @@
     .info-description {
       margin: 64px 32px;
     }
+  .info-cards{
+    margin-top: 40px;
+
+  }
+
   
     .info-cards-content {
       grid-template-columns: repeat(2, 1fr);

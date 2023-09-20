@@ -1,12 +1,14 @@
 import './App.css';
-import About from './Components/About';
-import Value from './Components/Values';
+import Layout from './Components/layout';
+import Product from './Components/Product';
 
 function App() {
   return (
     <div >
-      <About/>
-      <Value/>
+   <Layout>
+    <Product/>
+  
+   </Layout>
     </div>
   );
 }
