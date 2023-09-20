@@ -1,17 +1,19 @@
 
 import './App.css';
-import Layout from './Components/layout';
+import Team from './Components/team';
 import Product from './Components/Product';
+import Layout from './Components/layout';
+
+
 
 function App() {
   return (
-    <div >
+    <div>
    <Layout>
     <Product/>
-   
-   
-  
+    <Team/>
    </Layout>
+    
     </div>
   );
 }
