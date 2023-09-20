@@ -187,12 +187,13 @@
       margin-left: 10%;
     }
     .dt-cards-content :nth-child(5) {
-      margin-left:30%;
+      margin-left: 30%;
     }
     .dt-description {
       margin: 16px auto 0;
       font-size: 8px;
       text-align: left;
+      margin-left: 30px;
       line-height: 1.2rem;
     }
     .dt-card {
@@ -236,25 +237,28 @@
   @media screen and (max-width: 667px) {
     .dt-title {
       font-size: 32px;
+
     }
   
     .dt-description {
       margin: 48px 0 0;
       text-align: left;
       font-size: 18px;
+
+padding-left: 35px;
     }
     .dt-card-name{
-margin-left: 30px;
+padding-left: 30px;
     }
     .dt-card-title{
-      margin-right: -30px;
+      padding-left: 20px;
           }
     .dt-card-img {
       flex: 0 0 auto;
       margin-left: -10px;
     }
     .dt-cards-content :nth-child(5) {
-      margin-left: 0;
+      margin-left: 80px;
     }
     .dt-cards-content{
       display: flex;
