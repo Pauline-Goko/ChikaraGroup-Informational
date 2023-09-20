@@ -1,15 +1,15 @@
 .footer-section {
     background-color: #173042;
-    
-    
-   
+
+
+
 }
 
 .footer-container {
     padding: 40px;
     margin-left: 5%;
     margin-top: 40%;
-  
+
 
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +19,8 @@
     color: white;
     border-bottom: 2px solid #293241;
     border-radius: 2px;
-    padding-left: 30px; 
-    padding-right: 80px;  
+    padding-left: 30px;
+    padding-right: 80px;
 }
 
 .ft-title {
@@ -31,12 +31,14 @@
     font-weight: bold;
     letter-spacing: .8px;
 }
+
 .ft-sign {
     color: #1ECAB0;
     font-family: Cambria, sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
+
 .ft-description {
     width: 420px;
     margin: 16px 0 40px;
@@ -46,6 +48,7 @@
     letter-spacing: .8px;
     line-height: 1.7rem;
 }
+
 .ft-input-title {
     color: white;
     font-family: 'Rubik', sans-serif;
@@ -67,6 +70,7 @@
     font-size: 18px;
     letter-spacing: .8px;
 }
+
 .ft-btn {
     padding: 14px 18px;
     color: white;
@@ -80,6 +84,7 @@
     cursor: pointer;
     transition: all .4s ease;
 }
+
 .ft-btn:hover {
     color: #1A8EFD;
     background-color: white;
@@ -87,16 +92,18 @@
 }
 
 .ft-list-title {
-    
+
     margin: 16px 0;
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: .8px;
 }
+
 .ft-list-items {
     list-style-type: none;
 }
+
 .ft-list-items li a {
     text-decoration: none;
     color: white;
@@ -104,6 +111,7 @@
     border-bottom: 2px dotted transparent;
     transition: border .2s ease;
 }
+
 .ft-list-items li {
     margin: 24px 0;
     font-family: 'Rubik', sans-serif;
@@ -111,6 +119,7 @@
     font-weight: bold;
     letter-spacing: .8px;
 }
+
 .ft-list-items li a:hover {
     border-bottom: 2px dotted #a5a7ac;
 }
@@ -124,6 +133,7 @@
     font-weight: bold;
     letter-spacing: .8px;
 }
+
 .ft-social-links {
     list-style-type: none;
     display: flex;
@@ -132,6 +142,7 @@
     margin-left: -40%;
     gap: 12px;
 }
+
 .ft-social-links li a {
     width: 40px;
     height: 40px;
@@ -142,74 +153,79 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
 .ft-social-links li a svg {
     width: 24px;
     height: 24px;
     padding: 1px;
 }
+
 .ft-social-links li a svg path {
     fill: #cbcdd3;
 }
-.ft-social-links li a:hover, .ft-social-links li a:hover svg path {
+
+.ft-social-links li a:hover,
+.ft-social-links li a:hover svg path {
     fill: #1A8EFD;
     border: 2px solid #1A8EFD;
 }
 
 @media screen and (max-width: 700px) {
     .footer-container {
-      padding: 24px;
-      flex-direction: column;
-      gap: 16px;
-      align-items: center;
-      text-align: start;
-      font-size: 10px;
+        padding: 24px;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        text-align: start;
+        font-size: 10px;
     }
-    
+
     .ft-description {
-      width: 100%;
-      margin: 16px 0 24px;
-      font-size: 15px;
+        width: 100%;
+        margin: 16px 0 24px;
+        font-size: 15px;
     }
-    
+
     .ft-input {
-      width: 70%;
-      margin: 16px 0;
+        width: 70%;
+        margin: 16px 0;
     }
-    
+
     .ft-btn {
-      width: 100%;
-      margin: 0 0 16px;
+        width: 100%;
+        margin: 0 0 16px;
     }
-    
+
     .ft-list {
-      width: 100%;
-      text-align: start;
+        width: 100%;
+        text-align: start;
     }
-    
+
     .ft-list-title {
-      margin: 16px 0;
+        margin: 16px 0;
     }
-    
+
     .ft-list-items {
-      list-style-type: none;
-      padding: 0;
-     
+        list-style-type: none;
+        padding: 0;
+
     }
-    
+
     .ft-list-items li {
-      margin: 12px 0;
+        margin: 12px 0;
     }
-    
+
     .ft-social-links li a svg {
         width: 14px;
         height: 14px;
         padding: 0px;
     }
+
     .ft-copyright {
         padding: 2px 4px;
         display: flex;
         justify-content: space-evenly;
-        
+
 
         color: #cbcdd3;
         font-family: 'Rubik', sans-serif;
@@ -217,28 +233,33 @@
         font-weight: bold;
         letter-spacing: .2px;
     }
+
     .ft-social-links {
         list-style-type: none;
         display: none;
-      
+
     }
-  }
+}
 
 @media (max-width: 320px) {
     .footer-container {
         padding: 16px;
     }
+
     .ft-title {
         font-size: 24px;
     }
+
     .ft-description {
         width: 100%;
         font-size: 14px;
         margin: 10px 0;
     }
+
     .ft-input {
         width: 100%;
     }
+
     .ft-btn {
         width: 100%;
         margin: 0 0 12px;
@@ -250,7 +271,7 @@
     .ft-title {
         font-size: 28px;
     }
-   
+
 }
 
 
@@ -258,7 +279,7 @@
     .ft-title {
         font-size: 28px;
     }
-  
+
 }
 
 
@@ -266,19 +287,19 @@
     .ft-title {
         font-size: 28px;
     }
-    
+
 }
 
 
 @media screen and (min-width: 1024px) {
 
-    
+
     .footer-container {
         padding: 40px;
         margin-left: 5%;
         margin-top: 40%;
-      
-    
+
+
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -287,9 +308,10 @@
         color: white;
         border-bottom: 2px solid #293241;
         border-radius: 2px;
-        padding-left: 30px; 
-        padding-right: 80px;  
+        padding-left: 30px;
+        padding-right: 80px;
     }
+
     .ft-description {
         width: 420px;
         margin: 16px 0 40px;
@@ -299,17 +321,20 @@
         letter-spacing: .8px;
         line-height: 1.7rem;
     }
+
     .ft-list-title {
-    
+
         margin: 16px 0;
         font-family: 'Rubik', sans-serif;
         font-size: 18px;
         font-weight: bold;
         letter-spacing: .8px;
     }
+
     .ft-list-items {
         list-style-type: none;
     }
+
     .ft-list-items li a {
         text-decoration: none;
         color: white;
@@ -317,6 +342,7 @@
         border-bottom: 2px dotted transparent;
         transition: border .2s ease;
     }
+
     .ft-list-items li {
         margin: 24px 0;
         font-family: 'Rubik', sans-serif;
@@ -324,26 +350,28 @@
         font-weight: bold;
         letter-spacing: .8px;
     }
+
     .ft-list-items li a:hover {
         border-bottom: 2px dotted #a5a7ac;
     }
+
     .ft-social-links {
-       display: none;
+        display: none;
     }
-    
-  }
+
+}
 
 
 
 @media screen and (min-width: 820px) {
 
-    
+
     .footer-container {
         padding: 40px;
         margin-left: 5%;
         margin-top: 82%;
-      
-    
+
+
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -352,9 +380,10 @@
         color: white;
         border-bottom: 2px solid #293241;
         border-radius: 2px;
-        padding-left: 30px; 
-        padding-right: 80px;  
+        padding-left: 30px;
+        padding-right: 80px;
     }
+
     .ft-description {
         width: 420px;
         margin: 16px 0 40px;
@@ -364,17 +393,20 @@
         letter-spacing: .8px;
         line-height: 1.7rem;
     }
+
     .ft-list-title {
-    
+
         margin: 16px 0;
         font-family: 'Rubik', sans-serif;
         font-size: 18px;
         font-weight: bold;
         letter-spacing: .8px;
     }
+
     .ft-list-items {
         list-style-type: none;
     }
+
     .ft-list-items li a {
         text-decoration: none;
         color: white;
@@ -382,6 +414,7 @@
         border-bottom: 2px dotted transparent;
         transition: border .2s ease;
     }
+
     .ft-list-items li {
         margin: 24px 0;
         font-family: 'Rubik', sans-serif;
@@ -389,12 +422,13 @@
         font-weight: bold;
         letter-spacing: .8px;
     }
+
     .ft-list-items li a:hover {
         border-bottom: 2px dotted #a5a7ac;
     }
-    .ft-social-links {
-       display: none;
-    }
-    
-  }
 
+    .ft-social-links {
+        display: none;
+    }
+
+}
