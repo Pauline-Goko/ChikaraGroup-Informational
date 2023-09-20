@@ -1,5 +1,5 @@
 .contain{
-    margin-top: 6rem;
+    margin-top: 20px;
 }
 .about-section {
     padding: 32px;
@@ -93,11 +93,13 @@
 }
 
 .about-text-description {
-    margin: 8px 24px;
+    margin: 8px 0px;
     color: #4d4b4b;
     font-family: 'Poppins', sans-serif;
     letter-spacing: .7px;
     line-height: 1.6rem;
+    font-size: 18px;
+    
 }
 
 .fa-icon {
