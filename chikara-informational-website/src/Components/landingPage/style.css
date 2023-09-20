@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .text-section {
+    color: white;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .section-container {
+    position: relative;
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .text-section {
+    color: white;
+
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .text-content {
+    max-width: 80%;
+    /* margin: 0 auto; */
+  }
+  
+  .text-title {
+
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    font-size: 79px;
+    font-weight: 800;
+    color: #d8dde0;
+  }
+  
+  .text-description {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .text-appointment-btn {
+    padding: 14px 20px;
+    color: white;
+    border: none;
+    border-radius: 28px;
+    outline: none;
+    background-color: #1a8efd;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .text-appointment-btn:hover {
+    background-color: #0e63aa;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .hero-section {
+      text-align: center;
+    }
+  
+    .text-section {
+      max-width: 80%;
+      padding: 20px;
+    }
+  
+    .text-title {
+      font-size: 1.5rem;
+    }
+  
+    .text-description {
+      font-size: 1rem;
+    }
+  }
+  
+
+  .about-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-title>span {
+    position: relative;
+    font-size: 36px;
+    color: #000;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-title span::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 4px;
+    background-color: #0D7D04;
+    border-radius: 8px;
+    left: 0;
+    bottom: -12px;
+}
