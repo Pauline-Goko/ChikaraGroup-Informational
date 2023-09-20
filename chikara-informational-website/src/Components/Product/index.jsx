@@ -24,16 +24,19 @@ function Product() {
         </p>
 
         <p className="ba-checks ba-check-first">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#098081" }}  data-testid="fa-circle-check-icon" /> Accurate measurement of carbon dioxide (CO2) emissions in vehicle exhaust gases.
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#098081", fontSize: '32px' }}  data-testid="fa-circle-check-icon" className="icon" />  Accurate measurement of carbon dioxide (CO2) emissions in  vehicle exhaust gases.
         </p>
+       
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#098081" }}  data-testid="fa-circle-check-icon" /> Real-time emissions monitoring for immediate feedback on environmental impact.
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#098081", fontSize: '32px' }}  data-testid="fa-circle-check-icon" className="icon" /> Real-time emissions monitoring for immediate feedback on environmental impact.
         </p>
+       
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#098081" }}  data-testid="fa-circle-check-icon" /> Secure and easy-to-use attachment mechanism for various vehicle exhaust pipes.
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#098081", fontSize: '32px' }}  data-testid="fa-circle-check-icon" className="icon" /> Secure and easy-to-use attachment mechanism for various vehicle exhaust pipes.
         </p>
+        
         <p className="ba-checks ba-check-last">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#098081" }}  data-testid="fa-circle-check-icon" /> Compliance with emissions testing regulations and standards.
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#098081", fontSize: '32px' }}  data-testid="fa-circle-check-icon" className="icon" /> Compliance with emissions testing regulations and standards.
         </p>
       </div>
     </div>
