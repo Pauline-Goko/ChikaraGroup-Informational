@@ -20,10 +20,7 @@
       margin-top: 2%;
       
     }
-  
-   
-   
-    
+
     .ba-image-content img {
       max-width: 100%;
       height: auto;
@@ -90,12 +87,6 @@
     .div1{
       display: flex;
     }
-
-    
-
-    
-    
-  
   
     /* Responsive adjustments */
   @media screen and (max-width: 700px) {
@@ -105,11 +96,12 @@
     
     .ba-description {
         font-size: 14px;
+        line-height: 1.5rem;
     }
     
     .ba-checks {
         font-size: 16px; 
-        /* margin-top: -7%; */
+        padding: 18px;
     }
     .icon{
       font-size: 15px;
@@ -141,7 +133,6 @@
   
     .ba-checks {
         font-size: 12px; 
-       /* margin-left: -6%; */
        margin: -2px;
     }
 
@@ -151,6 +142,7 @@
   @media screen and (min-width: 768px) and (max-width: 1280px ){
     .ba-description{
       font-size: 20px;
+      line-height: 1.5rem;
     }
 
     .ba-title{
@@ -160,12 +152,16 @@
     .ba-checks{
       font-size: 18px;
       padding: 0px;
-      /* margin-top: -1%; */
       margin: 13px;
+     
     }
 
     .icon{
       font-size: 12px;
+    }
+
+    .ba-section{
+      margin-left: 2%;
     }
 
   }
