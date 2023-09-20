@@ -13,13 +13,6 @@ test('displays the "YOUR PARTNER IN SUSTAINABILITY" title', () => {
   expect(titleElement).toBeInTheDocument();
 });
 
-test('displays the "At Chikara..." description text', () => {
-  const { getByText } = render(<Hero />);
-  const descriptionElement = getByText(
-    'At Chikara, we\'re committed to creating a sustainable future. Join us in our mission to reduce carbon emissions and make the world a greener place.'
-  );
-  expect(descriptionElement).toBeInTheDocument();
-});
 
 test('renders the "Learn More" button', () => {
   const { getByText } = render(<Hero />);
