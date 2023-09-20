@@ -58,7 +58,7 @@
   .text-content {
     max-width: 80%;
     /* margin: 0 auto; */
-    margin-top: -40%;
+    margin-top: -35%;
   }
   
   .text-title {
@@ -94,7 +94,7 @@
     background-color: #0e63aa;
   }
   
-  /* Responsive design */
+
   @media screen and (max-width: 768px) {
     .hero-section {
       text-align: center;
