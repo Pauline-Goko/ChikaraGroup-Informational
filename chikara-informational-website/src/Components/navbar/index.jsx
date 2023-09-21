@@ -14,7 +14,7 @@ function Navbar({ isHome }) {
   useEffect(() => {
   
     const checkIsMobile = () => {
-      setIsMobile(window.innerWidth <= 700); 
+      setIsMobile(window.innerWidth <= 850); 
     };
 
 
