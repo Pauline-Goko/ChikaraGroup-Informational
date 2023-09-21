@@ -43,7 +43,7 @@
     position: relative;
     font-size: 40px;
     color: #000;
-    font-family: Inter;
+    font-family: 'Poppins', sans-serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
@@ -144,22 +144,49 @@
         letter-spacing: .7px;
     }
 }
+@media screen and (width: 390px) {
+    .about-text-description {
+        font-size: 12px !important;
+        
+    }
+
+}
+@media screen and (width: 412px) {
+    
+    .about-title{
+        text-align: left !important;
+        padding-left: 40px;
+    }
+    .about-title >span {
+        font-size: 18px !important;    
+    }
+    .about-description{
+        font-size: 12px !important;
+    }
+    .about-text-sTitle{
+        font-size: 15px;
+    }
+    .about-text-description{
+        font-size: 12px;
+    }
+  
+  }
 @media screen and (max-width: 400px) {
     .about-title >span {
-        font-size: 22px !important;
+        font-size: 18px !important;
         text-align: left !important;
         margin-right: 14rem;
         
     }
     .about-description {
        
-        font-size: 15px !important;
+        font-size: 12px !important ;
        
         
     }
     .about-text-description {
         line-height: 1.6rem;
-        font-size: 15px;
+        font-size: 12px;
         
     }
     .about-text-sTitle {
@@ -167,8 +194,48 @@
     }
 
 }
+@media screen and (width: 540px){
+    .about-title{
+        text-align: left !important; 
+        padding-left: 2rem;
+    }
+    .about-title>span {
+        font-size: 24px !important;
 
+    }
+    .about-description{
+        font-size: 14px !important;
+    }
+    .about-text-sTitle{
+        font-size: 16px !important;
+    }
+    .about-text-description{
+        font-size: 14px !important;
+    }
 
+}
+    
+@media screen and (width: 1280px) {
+    .about-title >span {
+        font-size: 30px !important;
+        
+        
+    }
+
+}
+@media screen and (width: 820px) {
+    .about-title {
+        text-align: center;
+        padding-left: 2rem;
+    }
+    
+    .about-title >span {
+        font-size: 30px !important;
+        
+        
+    }
+
+}
 @media screen and (max-width: 280px) {
     .about-section {
         padding: 16px;

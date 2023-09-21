@@ -100,7 +100,7 @@
     }
     
     .ba-checks {
-        font-size: 16px; 
+        font-size: 14px; 
         padding: 18px;
     }
     .icon{
@@ -114,6 +114,49 @@
       background-color: white;
     }
   }
+  @media screen and (width: 540px) {
+    .ba-description{
+      padding-left: 20px;
+
+    }
+    .ba-title{
+      padding-left: 20px;
+    }
+    .div1 {
+      padding-left: 21px;
+  }
+
+  }
+ 
+  @media screen and (width: 1280px) {
+    .ba-description{
+      padding-left: 240px;
+      text-align: center;
+
+    }
+    .ba-title{
+      text-align: center;
+    }
+    .div1 {
+      padding-left: 240px;
+  }
+
+  }
+  @media screen and (width: 820px) {
+    .ba-description{
+      padding-left: 40px;
+      text-align: left;
+
+    }
+    .ba-title{
+      text-align: center;
+    }
+    .div1 {
+      padding-left: 4px !important;
+  }
+
+  }
+
   
   @media screen and (max-width: 480px) {
     .ba-title {

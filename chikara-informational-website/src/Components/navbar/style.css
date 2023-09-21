@@ -22,7 +22,7 @@
   font-family: "Poppins", sans-serif;
 }
 .navbar-sign {
-  color: #54de54;
+  color: #54DE54;
   font-family: Cambria, sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -46,7 +46,7 @@
   letter-spacing: 0.9px;
 }
 .navbar-links:hover {
-  color: #8db85b;
+  color: #8DB85B;
 }
 .navbar-btn {
   padding: 14px 20px;
@@ -75,7 +75,6 @@
 .hamb-icon:hover {
   color: #293241;
 }
-
 .mobile-navbar {
   display: flex;
   flex-direction: column;
@@ -115,7 +114,6 @@
 .mobile-navbar-links li a:hover {
   color: #293241;
 }
-
 /* 1024 */
 @media screen and (max-width: 1024px) {
   .navbar-section {
@@ -154,6 +152,24 @@
     letter-spacing: 0.9px;
   }
 }
+@media screen and (width: 412px) {
+  .navbar-section{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .navbar-logo{
+    padding-right: 30px!important;
+  }
+  .mobile-nav {
+    margin-left: 1cm !important;
+  }
+}
+@media screen and (min-width: 539px) and (max-width: 542px){
+  img {
+    max-width: 10%;
+    margin-left: -4px;
+  }
+}
 @media screen and (max-width: 880px) {
   .navbar-section {
     align-items: start;
@@ -164,18 +180,58 @@
   .navbar-items {
     display: none;
   }
-
   .mobile-nav {
     display: block !important;
     margin-top: 2rem;
-    margin-right: 1cm !important;
+    margin-right: 24px !important;
   }
   .navbar-logo {
     max-width: 50%;
-    margin-left: 30px;
+    margin-left: 27px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .navbar-section {
+    align-items: start;
+    padding-left: 1rem !important;
+    margin-top: 0.1rem !important;
+  }
+  .navbar-btn,
+  .navbar-items {
+    display: none;
+  }
+  .mobile-nav {
+    display: block !important;
+    margin-top: 2rem;
+    margin-right: 16px !important;
+  }
+  .navbar-logo {
+    max-width: 50%;
+    margin-left: 22px;
   }
 }
 
+
+@media screen and (min-width: 392px) and (max-width: 400px) {
+  .navbar-section {
+    align-items: start;
+    padding-left: 1rem !important;
+    margin-top: 0.1rem !important;
+  }
+  .navbar-btn,
+  .navbar-items {
+    display: none;
+  }
+  .mobile-nav {
+    display: block !important;
+    margin-top: 2rem;
+    margin-right: 16px !important;
+  }
+  .navbar-logo {
+    max-width: 50%;
+    margin-left: 2px;
+  }
+}
 /* 821
 @media screen and (max-width: 850px) {
   .navbar-btn,
@@ -195,8 +251,6 @@
     margin-left: -30%;
   }
   .mobile-navbar {
-
-
   }......
   .mobile-navbar {
     display: flex;
@@ -213,9 +267,7 @@
     display: block;
     margin-right: 500rem !important;
   }
-  
 } */
-
 /* 720px */
 @media screen and (max-width: 750px) {
   .navbar-section {
@@ -232,9 +284,5 @@
     margin-bottom: 25px;
     margin-top: 2rem;
     margin-right: 4vh;
-  }
-  .navbar-logo {
-    max-width: 50%;
-    margin-left: 30px;
   }
 }
