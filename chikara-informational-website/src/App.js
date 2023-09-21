@@ -1,18 +1,16 @@
-import "./App.css";
-import Team from "./Components/team";
-import Product from "./Components/Product";
-import Layout from "./Components/layout";
-import About from "./Components/About";
-import Value from "./Components/Values";
+import { Children } from 'react';
+import './App.css';
+import Layout from './Components/layout';
 
 function App() {
   return (
-    <div>
+    <div className="App">
+     
+     
+      
+   
       <Layout>
-        <About/>
-        <Value/>
-        <Product/>
-        <Team />
+        {Children}
       </Layout>
     </div>
   );

@@ -4,15 +4,10 @@ import About from './Components/About';
 import Value from './Components/Values';
 import Team from './Components/team';
 
-test('renders About component', () => {
-  render(<About />);
-  const contactElement = screen.getByText('About Us');
-  expect(contactElement).toBeInTheDocument();
-});
-test('renders Values component', () => {
-  render(<Value />);
-  const contactElement = screen.getByText('Our Values');
-  expect(contactElement).toBeInTheDocument();
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
 });
 test('renders team section title', () => {
   render(<Team />);

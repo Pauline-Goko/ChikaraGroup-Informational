@@ -41,6 +41,7 @@
     font-size: 20px;
     letter-spacing: .8px;
     line-height: 1.7rem;
+    text-align: left;
 }
 
 .ft-input-title {
@@ -86,7 +87,7 @@
 }
 
 .ft-list-title {
-
+    text-align: left;
     margin: 16px 0;
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
@@ -96,6 +97,7 @@
 
 .ft-list-items {
     list-style-type: none;
+    text-align: left;
 }
 
 .ft-list-items li a {
@@ -116,6 +118,7 @@
 
 .ft-list-items li a:hover {
     border-bottom: 2px dotted #a5a7ac;
+    cursor: pointer;
 }
 
 .ft-copyright {

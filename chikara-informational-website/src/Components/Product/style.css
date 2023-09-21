@@ -27,6 +27,7 @@
 .ba-text-content {
   width: 100%;
   margin-right: 5%;
+  text-align: left;
 }
 
 .ba-title {
@@ -100,6 +101,7 @@
   .ba-checks {
     font-size: 14px;
     padding: 18px;
+    text-align: left;
   }
   .icon {
     font-size: 15px;
@@ -121,6 +123,9 @@
   }
   .div1 {
     padding-left: 21px;
+  }
+  .ba-checks{
+    text-align: left;
   }
 }
 
@@ -168,11 +173,14 @@
 
   .ba-description {
     font-size: 12px;
+    text-align: left;
+    
   }
 
   .ba-checks {
     font-size: 12px;
     margin: -2px;
+    text-align: left;
   }
 
   .ba-text-content {
@@ -184,6 +192,7 @@
     font-size: 20px;
     line-height: 1.5rem;
     margin: 0cm 1cm 0cm 1cm !important;
+    text-align: left;
   }
 
   .ba-title {
@@ -195,6 +204,7 @@
 
   .ba-checks {
     font-size: 18px;
+    text-align: left;
     padding: 0px;
     margin: 13px;
     padding: 0cm 1cm 0cm 0cm !important;
@@ -214,6 +224,7 @@
   .ba-description {
     font-size: 20px;
     line-height: 1.5rem;
+    text-align: left;
   }
 
   .ba-title {
@@ -227,6 +238,7 @@
     font-size: 18px;
     padding: 0px;
     margin: 13px;
+    text-align: left;
   }
 
   .icon {
@@ -236,4 +248,28 @@
   .ba-section {
     flex-direction: column;
   }
+  .ba-text-content{
+    /* margin-left: 5%; */
+  }
 }
+
+
+@media screen and (width: 1024px) {
+  .ba-text-content{
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (width: 1280px){
+  .ba-text-content{
+    /* margin-left: -15%; */
+  
+  }
+
+  .ba-title{
+    /* margin-left: 12%; */
+  }
+
+}
+

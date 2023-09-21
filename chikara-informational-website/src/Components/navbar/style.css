@@ -46,7 +46,7 @@
   letter-spacing: 0.9px;
 }
 .navbar-links:hover {
-  color: #8DB85B;
+  color: #31e20e;
 }
 .navbar-btn {
   padding: 14px 20px;
@@ -59,6 +59,7 @@
   letter-spacing: 0.8px;
   cursor: pointer;
   transition: all 0.4s ease;
+  font-weight: bold;
 }
 .navbar-btn:hover {
   color: #293241;

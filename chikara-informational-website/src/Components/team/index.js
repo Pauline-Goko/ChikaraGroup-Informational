@@ -31,7 +31,7 @@ function Team() {
                 <TeamCard
                     img="/Assets/kenyani.jpg"
                     name="Rachel Kenyani"
-                    title="UI/UX Designer"
+                    title="Software Engineer"
                 />
                 <TeamCard
                     img="/Assets/pauline.jpg"
