@@ -30,8 +30,8 @@ function Team() {
                 />
                 <TeamCard
                     img="/Assets/kenyani.jpg"
-                    name="Rachael Kenyani"
-                    title="Software Engineer"
+                    name="Rachel Kenyani"
+                    title="UI/UX Designer"
                 />
                 <TeamCard
                     img="/Assets/pauline.jpg"
@@ -42,7 +42,7 @@ function Team() {
                     img="/Assets/rita.jpeg"
                     name="Rita Khaseyi"
                     title="Software Engineer"
-                    className = "fourth-card"
+                    
                 />
             </div>
         </div>

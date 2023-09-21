@@ -19,8 +19,6 @@ function Product() {
         <p className="ba-description">
         Our Portable Emissions Measurement System (PEMS) is designed for vehicles to accurately measure and track carbon emissions. Our PEMS empowers individuals and businesses to 
         take control of their carbon footprint and make environmentally conscious choices. This data is then sent to a dashboard for analysis.
-
-          Key Features:
         </p>
 
         <div className="div1">

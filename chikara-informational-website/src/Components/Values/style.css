@@ -1,0 +1,300 @@
+.info-section {
+    padding: 0 32px;
+    background-color: white;
+    margin-bottom: 1rem;
+  }
+  .info-card-description {
+    text-align: center;  
+  }
+  .info-title-content {
+    margin: 10px 0 70px 0;
+  }
+  
+  .info-card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center; 
+  }
+  .info-card-title {
+    color: #098081 !important;
+
+  }
+  .info-title>span {
+    position: relative; 
+  }
+  .info-title {
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    font-family: 'Poppins', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .info-title span::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 4px;
+    background-color: #0D7D04;
+    border-radius: 8px;
+    left: 0;
+    bottom: -12px;
+  }
+  
+  .info-description {
+    margin-top: 64px;
+    color: rgb(77, 75, 75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1rem;
+    text-align: center;
+  
+  }
+  .info-cards-content {
+    margin-left: -0.02% !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.2px;
+    flex-wrap: wrap;
+    
+  }
+  .info-cards {
+    width: 350px;
+    border: 3px solid #098081;
+    border-radius: 12px;
+    background-color: white; 
+    position: relative;
+    color: black;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  .info-card-title {
+    margin: 40px 0 0px 0;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+  }
+  .info-card-description {
+    margin-left: 24px;
+    margin-right: 24px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    line-height: 1.2rem;
+    text-align: start;
+    margin-bottom: 2rem;
+  }
+  
+  .info-card-icon {
+    position: absolute;
+    top: -24px;
+    left: 43%;
+    padding: 10px;
+    background-color: #fff;
+    border: 3.0px solid #098081;
+    border-radius: 100%;
+  }
+
+  
+  .info-fa-icon {
+    color: #098081;
+    font-size: 24px;
+    padding-left: 3px;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .info-description {
+      margin: 64px 32px;
+      font-size: 14px !important;
+      line-height: 3rem;
+      text-align: left !important;
+    }
+  .info-cards{
+    margin-top: 40px;
+
+  }
+  .info-card-description {
+    font-size: 12px  !important;
+  }
+  .info-title {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  
+    .info-cards-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
+  @media screen and (width: 540px) {
+    .info-title{
+      text-align: center !important;
+    }
+    .info-title>span{
+      font-size: 24px !important;
+    }
+    
+
+  }
+
+  @media screen and (width: 412px) {
+    .info-title{
+      text-align: center !important;
+    }
+    .info-description{
+      font-size: 4px !important;
+      line-height: 1.5 !important;
+    }
+    .info-title>span{
+      font-size: 18px !important;
+      
+      }
+      .info-card-description{
+        font-size: 12px !important;
+      }
+    }
+    @media screen and (width: 390px) {
+      .info-title>span{
+        font-size: 40px !important;
+      }
+      
+    }
+    @media screen and (width: 1280px) {
+      info-title>span{
+        font-size: 30px !important;
+      }
+
+    }
+    
+    @media screen and (width: 820px) {
+      .info-title>span{
+        font-size: 30px !important;
+
+      }
+      .info-title{
+        text-align: center !important;
+      }
+
+    }
+  @media screen and (max-width: 850px) {
+    .info-description {
+      margin: 64px 32px;
+      font-size: 14px !important;
+      line-height: 3rem;
+      text-align: left !important;
+    }
+    .info-title {
+      text-align: center;
+    }
+      .info-title>span{
+        font-size: 18px ;
+      }
+    
+
+  }
+  @media screen and (max-width: 700px) {
+    .info-description {
+      margin: 64px 8px;
+    }
+    .info-card-icon {
+      left: 44% !important;
+    }
+  
+    .info-cards-content {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+  }
+  @media screen and (width: 768px) {
+    .info-title > span {
+      font-size: 30px !important;
+    }
+    .info-description {
+      font-size: 20px !important;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    
+    .info-title {
+      font-size: 32px !important;
+    }
+  
+    .info-description {
+      margin: 32px 8px 0px 8px;
+      line-height: 22px;
+      font-size: 16px;
+    }
+    .info-card-icon {
+      left: 44% !important;
+    }
+  
+    .info-card-title {
+      font-size: 18px;
+    }
+  
+    .info-card-description {
+      font-size: 16px;
+      
+    }
+  
+    .info-card-icon {
+      top: -20px;
+      left: 40%;
+      padding: 8px;
+    }
+    .info-cards {
+      margin-bottom: 2rem;
+      
+    }
+  
+    .info-fa-icon {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .info-title {
+      font-size: 28px;
+
+    }
+    .info-description {
+      margin: 16px 8px;
+      font-size: 14px;
+    }
+    .info-card-icon {
+      left: 44% !important;
+    }
+  
+    .info-card-title {
+      font-size: 20px;
+    }
+  
+    .info-card-description {
+      margin: 12px;
+      font-size: 14px;
+    }
+  
+    .info-card-icon {
+      top: -16px;
+      left: 38%;
+      padding: 6px;
+    }
+  
+    .info-fa-icon {
+      font-size: 18px;
+    }
+  }
+  
+  
+  
+  
+  
+  

@@ -1,402 +1,414 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 
 .team-section {
+  background-color: white;
+  padding: 0 px;
+  margin: 0 0 32px 0;
+  text-align: center;
+  margin-left: 6%;
+}
+
+.dt-title-content {
+  margin: 0 0 64px 0;
+}
+
+.dt-title {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+
+.dt-title > span {
+  position: relative;
+  text-align: center;
+}
+
+.dt-title span::before {
+  content: "";
+  position: absolute;
+  width: 48%;
+  height: 5px;
+  background-color: #0d7d04;
+  border-radius: 8px;
+  left: 0;
+  bottom: -6px;
+}
+
+.dt-description {
+  margin: 64px auto 0;
+  text-align: center;
+  color: rgb(77, 75, 75);
+  font-family: Poppins;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 1.8rem;
+}
+
+.dt-cards-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.dt-card {
+  width: 332px;
+  height: auto;
+  text-align: left;
+  font-family: Poppins;
+  background-color: white;
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dt-card:hover {
+  transform: translateY(-5px);
+}
+
+.dt-card-img {
+  width: 191px;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.dt-card-name {
+  margin: 12px 0 0 0;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  font-family: Poppins;
+}
+
+.dt-card-title {
+  margin: 6px 0 8px;
+  color: #494949;
+  font-family: Poppins;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+}
+/* upto 700 */
+@media screen and (max-width: 700px) {
+  .dt-title {
+    /* font-size: 32px;
+    margin-left: -10%; */
+    font-size: 24px;
+    text-align: start;
+  }
+
+  .dt-description {
+    /* margin: 58px 0 0;
+    font-size: 18px; */
+    margin: 48px 0 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  .dt-card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  .dt-cards-content {
+    margin: 0 15px;
+    /* position: relative; */
+    /* left: 128px; */
+    padding-bottom: 20px;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+}
+/* upto 768*/
+@media (max-width: 768px) {
+  .team-section {
+    overflow-x: hidden;
+  }
+  .dt-cards-content {
+    flex-direction: column;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    position: relative;
+    left: 62px;
+  }
+
+  .dt-title {
+    margin-right: 18px;
+    text-align: center;
+  }
+  .dt-card {
+    width: 100%;
+  }
+  .dt-cards-content :nth-child(5) {
+    margin-left: 50%;
+  }
+
+  .dt-description {
+    margin-right: 60px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 380px) {
+  .dt-title {
+    font-size: 18px;
+    text-align: start;
+    margin-left: -30px;
+  }
+  .team-section {
     background-color: white;
     padding: 0 px;
     margin: 0 0 32px 0;
     text-align: center;
-    margin-left: 6%;
+    margin-left: 7%;
   }
-  
-  
-  .dt-title-content {
-    margin: 0 0 64px 0;
+  .dt-cards-content :nth-child(5) {
+    margin-left: 30%;
   }
-  
-  .dt-title {
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 0.7px;
-  }
-  
-  .dt-title > span {
-    position: relative;
-  }
-  
-  .dt-title span::before {
-    content: '';
-    position: absolute;
-    width: 48%;
-    height: 5px;
-    background-color: #0D7D04;
-    border-radius: 8px;
-    left: 0;
-    bottom: -6px;
-  }
-  
   .dt-description {
-    margin: 64px auto 0;
-    text-align: center;
-    color: rgb(77, 75, 75);
-    font-family: Poppins;
-    font-size: 20px;
-    letter-spacing: 0.2px;
-    line-height: 1.8rem;
+    margin: 16px auto 0;
+    font-size: 8px;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 1.2rem;
   }
-  
-  
+  .dt-card {
+    width: 100%;
+  }
   .dt-cards-content {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 100%;
+    /* align-items: center; */
+    margin-left: -5px;
+    /* position: relative;
+      left: 30px; */
     padding-bottom: 20px;
   }
-  
-  
-  .dt-card {
-    width: 332px;
-    height: auto;
-    text-align: left;
-    font-family: Poppins;
-    background-color: white;
-    border-radius: 20px;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .dt-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .dt-card-img {
-    width: 191px;
-    height: auto;
-    border-radius: 20px 20px 0 0;
-  }
-  
-  .dt-card-name {
-    margin: 12px 0 0 0;
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 0.7px;
-    font-family: Poppins;
-  }
-  
   .dt-card-title {
-    margin: 6px 0 8px;
-    color: #494949;
-    font-family: Poppins;
-    font-size: 18px;
-    letter-spacing: 0.7px;
-  }
-  
-  
-  @media screen and (max-width: 700px) {
-    .dt-title {
-      font-size: 24px;
-      text-align: start;
-    }
-  
-    .dt-description {
-      margin: 48px 0 0;
-      text-align: start;
-      font-size: 14px;
-    }
-    .dt-card {
-      flex: 0 0 auto;
-      margin-right: 20px;
-    }
-    .dt-cards-content {
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-        max-width: 100%;
-        padding-bottom: 20px;
-      }
-  }
-  
-  
-  
-  
-  @media (max-width: 768px) {
-    .team-section {
-   overflow-x: hidden;
-    }
-    .dt-cards-content {
-      flex-direction: column; 
-      display: grid;
-      gap: 20px;
-      grid-template-columns: repeat(2,1fr);
-      align-items: center;
-      position: relative;
-      left: 62px;
-    }
-  
-
-  .dt-title{
-    margin-right: 18px;
-    text-align: start;
-  }
-    .dt-card {
-      width: 100%; 
-    }
-    .dt-cards-content :nth-child(5) {
-      margin-left: 50%;
-    }
- 
-    .dt-description{
-      margin-right: 60px;
-      text-align: left;
-    }
-  }
-
-  @media screen and (max-width: 700px) {
-    .dt-title {
-      font-size: 32px;
-      margin-left: -10%;
-    }
-  
-    .dt-description {
-      margin: 58px 0 0;
-      font-size: 18px;
-    }
-    .dt-card {
-      flex: 0 0 auto;
-      margin-right: 20px;
-    }
-    .dt-cards-content {
-      display: flex;
-      flex-direction: column;
-      gap: 32px;
-      max-width: 100%;
-      margin: 0 15px; 
-      /* position: relative; */
-      /* left: 128px; */
-      padding-bottom: 20px;
-  }
-  
-  }
-  
-  
-  @media screen and (min-width: 280px)  and (max-width:380px){
-    .dt-title {
-      font-size: 18px;
-      text-align: start;
-      margin-left: -30px;
-    }
-    .team-section {
-      background-color: white;
-      padding: 0 px;
-      margin: 0 0 32px 0;
-      text-align: center;
-      margin-left: 7%;
-    }
-    .dt-cards-content :nth-child(5) {
-      margin-left: 30%;
-    }
-    .dt-description {
-      margin: 16px auto 0;
-      font-size: 8px;
-      text-align: left;
-      margin-left: 30px;
-      line-height: 1.2rem;
-    }
-    .dt-card {
-      width: 100%;
-    }
-    .dt-cards-content {
-      display: flex;
-      flex-direction: column;
-      gap: 32px;
-      max-width: 100%;
-      /* align-items: center; */
-      margin-left: -5px;
-      /* position: relative;
-      left: 30px; */
-      padding-bottom: 20px;
-  }
-  .dt-card-title{
     font-size: 15px;
   }
-  .dt-card-name{
+  .dt-card-name {
     font-size: 15px;
   }
-  
-  }
-  
+}
 
-    
-  @media screen and (min-width: 390px)and (max-width: 420px)  {
-  
+@media screen and (width: 412px) {
+  .dt-card {
+    padding-left: 4cm !important;
+    align-items: center !important;
+  }
+  .dt-cards-content {
+    padding-left: 3cm !important;
+  }
+  .dt-cards-content :nth-child(5) {
+    padding-right: 4cm;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 420px) {
   .dt-cards-content {
     background-color: white;
     padding: 0 px;
     align-items: center;
-    margin-left: 2px;
+    margin-left: -80px;
     /* margin: 0 0 32px 0; */
     /* text-align: center; */
     /* margin-left: 20%; */
     padding-left: 45px;
   }
-  .dt-cards-content :nth-child(5) {
-    padding-right: 78px;
+  .dt-description {
+    margin: 18px 0;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 45px !important;
   }
-  
-  .dt-title{
+  .dt-cards-content :nth-child(5) {
+    padding-right: 0px;
+  }
+
+  .dt-title {
     margin-left: -20%;
   }
-  .dt-card-name{
-    font-size: 16px;
+  .dt-card-name {
+    font-size: 18px;
+    padding-left: 2rem !important;
   }
-  .dt-card-title{
+  .dt-card-title {
     font-size: 12px;
+    padding-left: 1.4rem !important;
   }
-  .dt-title-content{
+  .dt-title-content {
     padding-left: 12%;
-    
   }
 
-  .dt-title-content p{
+  .dt-title-content p {
     margin-left: -21%;
   }
-
+}
+@media screen and (width: 412px) {
+  .dt-card {
+    padding-right: 4cm;
+    align-items: center !important;
   }
-  
-  
-  @media screen and (max-width: 667px) {
-    .dt-title {
-      font-size: 24px;
-      padding-left: 10.7%;
-    }
-  
-    .dt-description {
-      margin: 18px 0 ;
-      text-align: left;
-      font-size: 18px;
-
-padding-left: 35px;
-    }
-    .dt-card-name{
-padding-left: 30px;
-    }
-    .dt-card-title{
-      padding-left: 20px;
-          }
-    .dt-card-img {
-      flex: 0 0 auto;
-      margin-left: -10px;
-    }
-    .dt-cards-content :nth-child(5) {
-      margin-left: 80px;
-    }
-    .dt-cards-content{
-      display: flex;
-      flex-direction: column;
-      gap: 32px;
-      align-items: center;
-      max-width: 100%;
-      /* margin-left: 5px; */
-      padding-bottom: 20px;
-    }
-  
+  .dt-cards-content :nth-child(5) {
+    padding-right: 4cm;
   }
+}
+@media screen and (width: 360px) {
+  .dt-card {
+    padding-right: 5cm;
+    align-items: center !important;
+  }
+  .dt-cards-content :nth-child(5) {
+    padding-right: 3cm;
+  }
+  .dt-card-name {
+    padding-left: 30px !important;
+    font-size: 18px;
+  }
+  .dt-card-title {
+    padding-left: 22px !important;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .dt-title {
+    font-size: 24px;
+    padding-left: 10.7%;
+  }
+
+  .dt-description {
+    margin: 18px 0;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 0px;
+  }
+  .dt-card {
+    padding-left: 4.5cm !important;
+    align-items: center;
+  }
+  .dt-card-name {
+    padding-left: 0px;
+    font-size: 18px;
+  }
+  .dt-card-title {
+    padding-left: 0px;
+    font-size: 15px;
+  }
+  .dt-card-img {
+    flex: 0 0 auto;
+    margin-left: -10px;
+  }
+  .dt-cards-content :nth-child(5) {
+    margin-left: 0px;
+  }
+  .dt-cards-content {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    max-width: 100%;
+
+    padding-bottom: 20px;
+  }
+}
 
 @media screen and (max-width: 380px) {
+  .dt-cards-content {
+    flex-direction: column;
+    max-width: 100%;
+    position: absolute;
+    left: 30px;
+    /* right: 40px; */
+    padding-bottom: 20px;
+  }
+  .dt-title {
+    font-size: 18px !important ;
+  }
+  .dt-card-name {
+    margin-left: -30px;
+  }
+  .dt-card-title {
+    margin-left: -30px;
+  }
+  .dt-card {
+    margin-left: 80px;
+  }
+}
 
-.dt-cards-content{
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  position: absolute;
-  left: 30px;
-/* right: 40px; */
-  padding-bottom: 20px;
-}
-.dt-title{
-  font-size: 18px !important ;
-}
-.dt-card-name{
-  margin-left: -30px;
-}
-.dt-card-title{
-  margin-left: -30px;
-}
-.dt-card{
-  margin-left: 80px;
-}
-
+@media screen and (max-width: 520px) {
+  .dt-cards-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+    left: 55px;
+    /* align-items: center; */
+    padding-bottom: 20px;
+  }
+  .dt-title {
+    font-size: 18px !important ;
+    text-align: center !important;
+  }
+  .dt-description {
+    margin-right: 12px;
+    text-align: start;
+    margin-left: -35px;
+    font-size: 12px;
   }
 
-  
-  @media screen and (max-width: 520px) {
+  .dt-card-name {
+    margin-left: -40px;
+  }
+  .dt-card-title {
+    margin-left: -30px;
+  }
+}
 
-    .dt-cards-content{
-      display: flex;
-      flex-direction: column;
-      max-width: 100%;
-      position: relative;
-      left: 55px;
-      /* align-items: center; */
-      padding-bottom: 20px;
-    }
-    .dt-title{
-      font-size: 18px !important ;
-    }
-    .dt-description{
-      margin-right: 12px;
-      text-align: start;
-      margin-left: -35px;
-      font-size: 12px;
+@media screen and (max-width: 360px) {
+  .dt-cards-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding-left: 0px;
+  }
+}
 
-    }
-    
-    .dt-card-name{
-      margin-left: -40px;
-    }
-    .dt-card-title{
-      margin-left: -30px;
-    }
-    
-      }
-    
-      @media screen and (max-width: 360px) {
+@media screen and (min-width: 820px) and (max-width: 1080px) {
+  .team-section {
+    overflow-x: hidden;
+  }
+  .dt-cards-content {
+    flex-direction: column;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    position: relative;
+    left: 62px;
+  }
 
-        .dt-cards-content{
-          display: flex;
-          flex-direction: column;
-          max-width: 100%;
-          padding-left: 0px;
-        }
-      }
-    
-      @media screen and (min-width: 820px) and (max-width :1080px) {
+  .dt-title {
+    margin-right: 10px;
+  }
+  .dt-card {
+    width: 100%;
+  }
 
-        .team-section {
-          overflow-x: hidden;
-           }
-           .dt-cards-content {
-             flex-direction: column; 
-             display: grid;
-             gap: 20px;
-             grid-template-columns: repeat(2,1fr);
-             align-items: center;
-             position: relative;
-             left: 62px;
-           }
-         
-       
-         .dt-title{
-           margin-right: 10px;
-         }
-           .dt-card {
-             width: 100%; 
-           }
-       
-           .dt-cards-content :nth-child(5) {
-             margin-left: 50%;
-           }
-           .dt-description{
-             margin-right: 60px;
-             text-align: left;
-           }
-      }
-     
+  .dt-cards-content :nth-child(5) {
+    margin-left: 50%;
+  }
+  .dt-description {
+    margin-right: 60px;
+    text-align: left;
+  }
+}
+
+@media screen and (width: 540px) {
+  .dt-cards-content {
+    width: 10cm;
+    height: 10cm;
+    margin-left: 0%;
+  }
+
+}

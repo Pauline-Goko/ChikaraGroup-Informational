@@ -14,7 +14,7 @@ test('renders team section', () => {
   // Check if all team members are rendered
   const mariaImage = getByAltText(/Mariagoretti Kimani/i);
   const purityImage = getByAltText(/Purity Wanjiku/i);
-  const kenyaniImage = getByAltText(/Rachael Kenyani/i);
+  const kenyaniImage = getByAltText(/Rachel Kenyani/i);
   const paulineImage = getByAltText(/Pauline Goko/i);
   const ritaImage = getByAltText(/Rita Khaseyi/i);
 
