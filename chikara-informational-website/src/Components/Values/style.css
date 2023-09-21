@@ -125,7 +125,7 @@
   }
   .info-title {
     font-size: 20px !important;
-    text-align: left;
+    text-align: center;
   }
   
     .info-cards-content {
@@ -135,7 +135,7 @@
   }
   @media screen and (width: 540px) {
     .info-title{
-      text-align: left !important;
+      text-align: center !important;
     }
     .info-title>span{
       font-size: 24px !important;
@@ -146,7 +146,7 @@
 
   @media screen and (width: 412px) {
     .info-title{
-      text-align: left !important;
+      text-align: center !important;
     }
     .info-description{
       font-size: 4px !important;
@@ -191,7 +191,7 @@
       text-align: left !important;
     }
     .info-title {
-      text-align: left;
+      text-align: center;
     }
       .info-title>span{
         font-size: 18px ;
@@ -212,11 +212,19 @@
     }
     
   }
+  @media screen and (width: 768px) {
+    .info-title > span {
+      font-size: 30px !important;
+    }
+    .info-description {
+      font-size: 20px !important;
+    }
+  }
   
   @media screen and (max-width: 800px) {
     
     .info-title {
-      font-size: 32px;
+      font-size: 32px !important;
     }
   
     .info-description {

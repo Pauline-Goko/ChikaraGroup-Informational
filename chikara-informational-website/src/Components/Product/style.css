@@ -1,216 +1,239 @@
 /* Common styles for both open and closed Galaxy Fold */
 
 .ba-section {
-    padding: 42px;
-    display: flex;
-    justify-content: space-around;
-    gap: 14px;
-    background-color: white;
-    margin: 0 auto; 
-    margin-left: -2.8%;
-   
-  
-    }
-    
-    /* Image */
-    .ba-image-content {
-      width: 100%;
-      max-width: 100%;
-      text-align: center;
-      margin-top: 2%;
-      
-    }
-
-    .ba-image-content img {
-      max-width: 100%;
-      height: auto;
-    }
-    
-    /* Text */
-    .ba-text-content {
-      width: 100%;
-      margin-right: 5%;
-    }
-    
-    .ba-title {
-      font-family: 'Poppins', sans-serif;
-      font-size: 40px;
-      font-weight: bold;
-      letter-spacing: 0.7px;
-    }
-    
-    .ba-title > span {
-      position: relative;
-    }
-    
-    .ba-title span::before {
-      content: '';
-      position: absolute;
-      width: 50%;
-      height: 4px;
-      background-color: #0D7D04;
-      border-radius: 8px;
-      left: 0;
-      bottom: -12px;
-    }
-    
-    .ba-description {
-      margin: 16px 0;
-      color: #292828;
-      font-family: 'Poppins', sans-serif;
-      font-size: 20px;
-    
-      line-height: 3rem;
-      max-width: 850px;
-    }
-    
-   
-    .ba-checks {
-      margin: -3px 0;
-      font-family: 'Poppins', sans-serif;
-      font-size: 18px;
-      font-weight: bold;
-      padding: 20px;
-       
-      
-    }
-    
-    .ba-check-first {
-      margin-top: 40px;
-    }
-    
-    .ba-check-last {
-      margin-bottom: 20px;
-    }
-
-   
-    .div1{
-      display: flex;
-    }
-  
-    /* Responsive adjustments */
-  @media screen and (max-width: 700px) {
-    .ba-title {
-        font-size: 24px; 
-    }
-    
-    .ba-description {
-        font-size: 14px;
-        line-height: 1.5rem;
-    }
-    
-    .ba-checks {
-        font-size: 14px; 
-        padding: 18px;
-    }
-    .icon{
-      font-size: 15px;
-    }
-    .ba-section {
-      padding: 32px;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      background-color: white;
-    }
-  }
-  @media screen and (width: 540px) {
-    .ba-description{
-      padding-left: 20px;
-
-    }
-    .ba-title{
-      padding-left: 20px;
-    }
-    .div1 {
-      padding-left: 21px;
-  }
-
-  }
- 
-  @media screen and (width: 1280px) {
-    .ba-description{
-      padding-left: 240px;
-      text-align: center;
-
-    }
-    .ba-title{
-      text-align: center;
-    }
-    .div1 {
-      padding-left: 240px;
-  }
-
-  }
-  @media screen and (width: 820px) {
-    .ba-description{
-      padding-left: 40px;
-      text-align: left;
-
-    }
-    .ba-title{
-      text-align: center;
-    }
-    .div1 {
-      padding-left: 4px !important;
-  }
-
-  }
-
-  
-  @media screen and (max-width: 480px) {
-    .ba-title {
-        font-size: 18px;
-        margin-bottom: 50px;
-    }
-    .icon{
-      font-size: 10px;
-    }
-  
-    .ba-title span::before {
-        width: 50%;
-    }
-  
-    .ba-description {
-        font-size: 12px; 
-    }
-  
-    .ba-checks {
-        font-size: 12px; 
-       margin: -2px;
-    }
-   
-.ba-text-content{
-  margin-left: 17px;
+  padding: 42px;
+  display: flex;
+  justify-content: space-around;
+  gap: 14px;
+  background-color: white;
+  margin: 0 auto;
+  margin-left: -2.8%;
 }
 
+/* Image */
+.ba-image-content {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.ba-image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Text */
+.ba-text-content {
+  width: 100%;
+  margin-right: 5%;
+}
+
+.ba-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-align: center !important;
+}
+
+.ba-title > span {
+  position: relative;
+}
+
+.ba-title span::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background-color: #0d7d04;
+  border-radius: 8px;
+  left: 0;
+  bottom: -12px;
+}
+
+.ba-description {
+  margin: 16px 0;
+  color: #292828;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+
+  line-height: 3rem;
+  max-width: 850px;
+}
+
+.ba-checks {
+  margin: -3px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.ba-check-first {
+  margin-top: 40px;
+}
+
+.ba-check-last {
+  margin-bottom: 20px;
+}
+
+.div1 {
+  display: flex;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 700px) {
+  .ba-title > span {
+    font-size: 24px;
+   
   }
-  @media screen and (min-width: 768px) and (max-width: 1280px ){
-    .ba-description{
-      font-size: 20px;
-      line-height: 1.5rem;
-    }
-
-    .ba-title{
-      font-size: 30px;
-    }
-
-    .ba-checks{
-      font-size: 18px;
-      padding: 0px;
-      margin: 13px;
-     
-    }
-
-    .icon{
-      font-size: 12px;
-    }
-
-    .ba-section{
-     
-      flex-direction: column;
-    }
-
+  .ba-title{
+    text-align: center !important;
   }
-    
+
+  .ba-description {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+
+  .ba-checks {
+    font-size: 14px;
+    padding: 18px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+  .ba-section {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: white;
+  }
+}
+@media screen and (width: 540px) {
+  .ba-description {
+    padding-left: 20px;
+  }
+  .ba-title {
+    text-align: center !important;
+  }
+  .div1 {
+    padding-left: 21px;
+  }
+}
+
+@media screen and (width: 1280px) {
+  .ba-description {
+    padding-left: 250px;
+    text-align: left;
+  }
+  .ba-title  {
+    text-align: center !important;
+  }
+  .div1 {
+    padding-left: 240px;
+  }
+}
+@media screen and (width: 820px) {
+  .ba-description {
+    padding-left: 40px;
+    text-align: left;
+  }
+  .ba-title {
+    text-align: center !important;
+  }
+  .div1 {
+    padding-left: 1cm !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ba-title {
+    margin-bottom: 50px;
+    text-align: center !important;  
+  }
+  .ba-title > span {
+    font-size: 18px;
+  }
   
+  .icon {
+    font-size: 10px;
+  }
+
+  .ba-title span::before {
+    width: 50%;
+  }
+
+  .ba-description {
+    font-size: 12px;
+  }
+
+  .ba-checks {
+    font-size: 12px;
+    margin: -2px;
+  }
+
+  .ba-text-content {
+    margin-left: 17px;
+  }
+}
+@media screen and (width: 768px) {
+  .ba-description {
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin: 0cm 1cm 0cm 1cm !important;
+  }
+
+  .ba-title {
+    text-align: center !important;
+  }
+  .ba-title > span {
+    font-size: 30px;
+  }
+
+  .ba-checks {
+    font-size: 18px;
+    padding: 0px;
+    margin: 13px;
+    padding: 0cm 1cm 0cm 0cm !important;
+  }
+
+  .icon {
+    font-size: 12px;
+    margin-left: 1cm;
+  }
+
+  .ba-section {
+    flex-direction: column;
+  }
+  
+}
+@media screen and (min-width: 770px) and (max-width: 1280px) {
+  .ba-description {
+    font-size: 20px;
+    line-height: 1.5rem;
+  }
+
+  .ba-title {
+    text-align: center !important;
+  }
+  .ba-title > span {
+    font-size: 30px;
+  }
+
+  .ba-checks {
+    font-size: 18px;
+    padding: 0px;
+    margin: 13px;
+  }
+
+  .icon {
+    font-size: 12px;
+  }
+
+  .ba-section {
+    flex-direction: column;
+  }
+}

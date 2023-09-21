@@ -42,7 +42,7 @@ function Team() {
                     img="/Assets/rita.jpeg"
                     name="Rita Khaseyi"
                     title="Software Engineer"
-                    className = "fourth-card"
+                    
                 />
             </div>
         </div>

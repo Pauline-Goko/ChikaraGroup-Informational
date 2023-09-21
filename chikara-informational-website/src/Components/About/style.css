@@ -8,10 +8,7 @@
     gap: 24px;
     background-color: white;
     margin: 0 auto; 
- 
 }
-
-
 .about-image-content img {
     width: 100%;
     height: auto;
@@ -19,8 +16,6 @@
     border-radius: 15px;
     /* text-align: center; */
 }
-
-
 .about-image1 {
     width: 80%;
     height: auto;
@@ -142,6 +137,7 @@
         font-size: 22px;
         font-weight: bold;
         letter-spacing: .7px;
+        text-align: center;
     }
 }
 @media screen and (width: 390px) {
@@ -149,13 +145,17 @@
         font-size: 12px !important;
         
     }
+    .about-text-sTitle{
+        text-align: center !important;
+        margin-left: 3cm !important;
+    }
 
 }
+
 @media screen and (width: 412px) {
     
     .about-title{
-        text-align: left !important;
-        padding-left: 40px;
+        text-align: center !important;
     }
     .about-title >span {
         font-size: 18px !important;    
@@ -172,10 +172,10 @@
   
   }
 @media screen and (max-width: 400px) {
+    
     .about-title >span {
         font-size: 18px !important;
-        text-align: left !important;
-        margin-right: 14rem;
+        
         
     }
     .about-description {
@@ -196,8 +196,8 @@
 }
 @media screen and (width: 540px){
     .about-title{
-        text-align: left !important; 
-        padding-left: 2rem;
+        text-align: center !important; 
+        
     }
     .about-title>span {
         font-size: 24px !important;
@@ -208,6 +208,7 @@
     }
     .about-text-sTitle{
         font-size: 16px !important;
+        text-align: center !important; 
     }
     .about-text-description{
         font-size: 14px !important;
@@ -236,6 +237,10 @@
     }
 
 }
+@media screen and (width: 768px) {
+    .about-title > span {
+      font-size: 30px !important;
+    }}
 @media screen and (max-width: 280px) {
     .about-section {
         padding: 16px;

@@ -11,7 +11,7 @@
 .navbar-logo {
   height: auto;
   max-width: 80%;
-  margin-left: 65%;
+  margin-left:36%;
 }
 .navbar-title a {
   color: #293241;
@@ -23,7 +23,7 @@
 }
 .navbar-sign {
   color: #54DE54;
-  font-family: Cambria, sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 40px;
   font-weight: bold;
 }

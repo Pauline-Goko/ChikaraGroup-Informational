@@ -17,7 +17,6 @@
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 0.7px;
-
 }
 
 .dt-title > span {
@@ -87,16 +86,20 @@
   font-size: 18px;
   letter-spacing: 0.7px;
 }
-
+/* upto 700 */
 @media screen and (max-width: 700px) {
   .dt-title {
+    /* font-size: 32px;
+    margin-left: -10%; */
     font-size: 24px;
     text-align: start;
   }
 
   .dt-description {
+    /* margin: 58px 0 0;
+    font-size: 18px; */
     margin: 48px 0 0;
-    text-align: start;
+    text-align: center;
     font-size: 14px;
   }
   .dt-card {
@@ -104,14 +107,17 @@
     margin-right: 20px;
   }
   .dt-cards-content {
-    display: flex;
+    margin: 0 15px;
+    /* position: relative; */
+    /* left: 128px; */
+    padding-bottom: 20px;
     flex-direction: column;
     gap: 32px;
     max-width: 100%;
     padding-bottom: 20px;
   }
 }
-
+/* upto 768*/
 @media (max-width: 768px) {
   .team-section {
     overflow-x: hidden;
@@ -128,7 +134,7 @@
 
   .dt-title {
     margin-right: 18px;
-    text-align: start;
+    text-align: center;
   }
   .dt-card {
     width: 100%;
@@ -140,32 +146,6 @@
   .dt-description {
     margin-right: 60px;
     text-align: left;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .dt-title {
-    font-size: 32px;
-    margin-left: -10%;
-  }
-
-  .dt-description {
-    margin: 58px 0 0;
-    font-size: 18px;
-  }
-  .dt-card {
-    flex: 0 0 auto;
-    margin-right: 20px;
-  }
-  .dt-cards-content {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    max-width: 100%;
-    margin: 0 15px;
-    /* position: relative; */
-    /* left: 128px; */
-    padding-bottom: 20px;
   }
 }
 
@@ -215,16 +195,16 @@
 }
 
 @media screen and (width: 412px) {
-  .dt-card{
-    padding-right: 4cm;
+  .dt-card {
+    padding-left: 4cm !important;
     align-items: center !important;
+  }
+  .dt-cards-content {
+    padding-left: 3cm !important;
   }
   .dt-cards-content :nth-child(5) {
     padding-right: 4cm;
   }
-    
-  
-
 }
 @media screen and (min-width: 390px) and (max-width: 420px) {
   .dt-cards-content {
@@ -238,7 +218,7 @@
     padding-left: 45px;
   }
   .dt-description {
-    margin: 18px 0 ;
+    margin: 18px 0;
     text-align: left;
     font-size: 18px;
     padding-left: 45px !important;
@@ -253,7 +233,6 @@
   .dt-card-name {
     font-size: 18px;
     padding-left: 2rem !important;
-  
   }
   .dt-card-title {
     font-size: 12px;
@@ -268,19 +247,16 @@
   }
 }
 @media screen and (width: 412px) {
-  .dt-card{
+  .dt-card {
     padding-right: 4cm;
     align-items: center !important;
   }
   .dt-cards-content :nth-child(5) {
     padding-right: 4cm;
   }
-    
-  
-
 }
 @media screen and (width: 360px) {
-  .dt-card{
+  .dt-card {
     padding-right: 5cm;
     align-items: center !important;
   }
@@ -290,15 +266,11 @@
   .dt-card-name {
     padding-left: 30px !important;
     font-size: 18px;
-    
   }
   .dt-card-title {
     padding-left: 22px !important;
     font-size: 15px;
   }
-    
- 
-
 }
 @media screen and (max-width: 667px) {
   .dt-title {
@@ -307,20 +279,18 @@
   }
 
   .dt-description {
-    margin: 18px 0 ;
+    margin: 18px 0;
     text-align: left;
     font-size: 18px;
-
     padding-left: 0px;
   }
-  .dt-card{
+  .dt-card {
     padding-left: 4.5cm !important;
     align-items: center;
   }
   .dt-card-name {
     padding-left: 0px;
     font-size: 18px;
-    
   }
   .dt-card-title {
     padding-left: 0px;
@@ -334,19 +304,17 @@
     margin-left: 0px;
   }
   .dt-cards-content {
-    display: flex;
     flex-direction: column;
     gap: 32px;
     align-items: center;
     max-width: 100%;
-    
+
     padding-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 380px) {
   .dt-cards-content {
-    display: flex;
     flex-direction: column;
     max-width: 100%;
     position: absolute;
@@ -380,6 +348,7 @@
   }
   .dt-title {
     font-size: 18px !important ;
+    text-align: center !important;
   }
   .dt-description {
     margin-right: 12px;
@@ -433,4 +402,13 @@
     margin-right: 60px;
     text-align: left;
   }
+}
+
+@media screen and (width: 540px) {
+  .dt-cards-content {
+    width: 10cm;
+    height: 10cm;
+    margin-left: 0%;
+  }
+
 }
