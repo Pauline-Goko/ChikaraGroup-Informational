@@ -1,12 +1,17 @@
+import { Children } from 'react';
 import './App.css';
-import Hero from './Components/landingPage';
+import Layout from './Components/layout';
 
 function App() {
   return (
     <div className="App">
-     <Hero/>
+     
      
       
+   
+      <Layout>
+        {Children}
+      </Layout>
     </div>
   );
 }
