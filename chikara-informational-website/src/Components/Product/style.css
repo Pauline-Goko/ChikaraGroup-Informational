@@ -57,7 +57,7 @@
     .ba-description {
       margin: 16px 0;
       color: #292828;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-size: 20px;
     
       line-height: 3rem;
@@ -67,7 +67,7 @@
    
     .ba-checks {
       margin: -3px 0;
-      font-family: 'Inter';
+      font-family: 'Poppins', sans-serif;
       font-size: 18px;
       font-weight: bold;
       padding: 20px;

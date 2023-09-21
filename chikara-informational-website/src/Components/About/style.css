@@ -41,7 +41,7 @@
 
 .about-title>span {
     position: relative;
-    font-size: 36px;
+    font-size: 40px;
     color: #000;
     font-family: Inter;
     font-size: 35px;
@@ -126,7 +126,48 @@
     .about-text-content {
         width: 100%;
     }
+    .about-description {
+        margin: 12px 0;
+        /* font-size: 0.8rem; */
+        font-size: 20px !important;
+        line-height: 2rem;
+    }
+    .about-text-description {
+        line-height: 1.6rem;
+        font-size: 20px;
+        
+    }
+    .about-text-sTitle {
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: .7px;
+    }
 }
+@media screen and (max-width: 400px) {
+    .about-title >span {
+        font-size: 22px !important;
+        text-align: left !important;
+        margin-right: 14rem;
+        
+    }
+    .about-description {
+       
+        font-size: 15px !important;
+       
+        
+    }
+    .about-text-description {
+        line-height: 1.6rem;
+        font-size: 15px;
+        
+    }
+    .about-text-sTitle {
+        font-size: 16px;
+    }
+
+}
+
 
 @media screen and (max-width: 280px) {
     .about-section {
@@ -161,13 +202,14 @@
 
     .about-description {
         margin: 12px 0;
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
+        font-size: 14px !important;
         line-height: 1rem;
     }
 
     .about-text-title {
         margin: 0 0 12px 0;
-        font-size: 1rem;
+        font-size: 8rem;
     }
 
     .about-text-description {
